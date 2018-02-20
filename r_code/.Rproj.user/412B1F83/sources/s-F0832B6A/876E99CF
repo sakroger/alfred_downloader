@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1519089191061.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "876E99CF",
+    "lastKnownWriteTime" : 1518905095,
+    "last_content_update" : 1518905095,
+    "path" : "C:/Users/sakro/Desktop/derek/fred-master/r_code/R/table_creation.R",
+    "project_path" : "R/table_creation.R",
+    "properties" : {
+        "cursorPosition" : "2,13",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

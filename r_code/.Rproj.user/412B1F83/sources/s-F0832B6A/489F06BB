@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1519089188614.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "489F06BB",
+    "lastKnownWriteTime" : 1518989548,
+    "last_content_update" : 1518989548,
+    "path" : "C:/Users/sakro/Desktop/derek/fred-master/r_code/R/tableExists.R",
+    "project_path" : "R/tableExists.R",
+    "properties" : {
+        "cursorPosition" : "14,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -4,7 +4,11 @@ library(RODBC)
 library(httr)
 library(jsonlite)
 
-sql_sign_in_info <- 'driver={SQL Server};server=desktop-m9e5cke;database=fred_stuff;uid=sakroger;pwd=123'
+server  <- getOption("tsCreds")[['server']]
+username <- getOption("tsCreds")[['uid']]
+password <- getOption('tsCreds')[['pwd']]
+
+sql_sign_in_info <- paste0('driver={SQL Server};server=',server,';database=fred_stuff;uid=',username,';pwd=',password)
 download_path <-  'C:\\Users\\sakro\\Desktop\\derek\\fred-master\\fred_csv\\'
 fred_id_list <- c('T10YIE', 'T10Y2Y')
 #dbconn <- get_connection()
