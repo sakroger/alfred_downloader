@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1518910067390.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "72147267",
+    "lastKnownWriteTime" : 1519088586,
+    "last_content_update" : 1519088586900,
+    "path" : "C:/Users/sakro/Desktop/derek/fred-master/r_code/fred_main.R",
+    "project_path" : "fred_main.R",
+    "properties" : {
+        "cursorPosition" : "22,72",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
