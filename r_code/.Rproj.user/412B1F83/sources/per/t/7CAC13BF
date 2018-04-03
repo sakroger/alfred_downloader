@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1522713936819.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "901281323",
+    "id" : "7CAC13BF",
+    "lastKnownWriteTime" : 1522715887,
+    "last_content_update" : 1522715887750,
+    "path" : "C:/Users/sakro/Desktop/derek/fred-master/r_code/R/call_fred_api.R",
+    "project_path" : "R/call_fred_api.R",
+    "properties" : {
+        "cursorPosition" : "13,14",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

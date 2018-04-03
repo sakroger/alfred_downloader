@@ -1,26 +1,23 @@
-start_date <- function()
+start_date <- function(fred_id)
   {
-  tableName <- trimws(paste0('fred.',title))
-  tempTableName <- paste0(tableName,'_temp')
-  table_exists <-tableExists(tableName)
+  table_name <- fred_id
+  #temp_table_name <- paste0(table_name,'_temp')
+  #table_state <-table_exists(fred_id)
+  default_start_date <- '2017-01-01'
 
-  if(!table_exists)
+  start_date <- sql_query(sprintf('SELECT max(dt) as dt from %s;',table_name))
+  if (is.character(start_date == TRUE))
     {
-    #startDate <-'1990-01-01'
-    startDate <- '2010-01-01'
+    start_date <- default_start_date
     }
-
-  if(is.null(startDate))
+  if(is.character(start_date) == FALSE)
     {
-    startDate <- sql_query(sprintf('select max(dt) as dt from %s;',tableName))
-    startDate <- startDate[1,1]
-
-    if(is.na(startDate))
+    start_date <- start_date[1,1]
+    if (is.na(start_date))
       {
-      startDate <-'1990-01-01'
+      start_date<- default_start_date
       }
     }
 
-  startDate<- as.Date(startDate)
-  return(startDate)
+  return(start_date)
   }

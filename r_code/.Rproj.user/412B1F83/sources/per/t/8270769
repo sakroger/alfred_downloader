@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1522714080408.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1176012994",
+    "id" : "8270769",
+    "lastKnownWriteTime" : 1522201622,
+    "last_content_update" : 1522201622,
+    "path" : "C:/Users/sakro/Desktop/derek/fred-master/r_code/R/format_fred_csv.R",
+    "project_path" : "R/format_fred_csv.R",
+    "properties" : {
+        "cursorPosition" : "3,31",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

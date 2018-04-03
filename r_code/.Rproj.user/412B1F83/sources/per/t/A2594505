@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1522713838302.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "278070042",
+    "id" : "A2594505",
+    "lastKnownWriteTime" : 1522714806,
+    "last_content_update" : 1522714806448,
+    "path" : "C:/Users/sakro/Desktop/derek/fred-master/r_code/R/download_loop_fred_csv.R",
+    "project_path" : "R/download_loop_fred_csv.R",
+    "properties" : {
+        "cursorPosition" : "16,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled3"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

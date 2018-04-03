@@ -1,24 +1,16 @@
-release_dates <- function()
+release_dates <- function(fred_id)
   {
-  release_id <- get_release_id()
-  #start_date <- start_date()
-  start_date <- '2016-01-01'
+  release_id <- get_release_id(fred_id)
+  start_date <- start_date(fred_id)
   endpoint <- 'release/dates?release_id='
 
   data <- call_fred_api(endpoint, release_id)
-
-  data <- data[9]
-  dates_to_download <- c()
-  for(i in 1:nrow(data))
-    {
-    current_date <- data[i,]
-
-    if(start_date <= current_date)
-      {
-      dates_to_download <- c(dates_to_download, current_date)
-      }
-    }
-
+  dates <- as.Date(data[['release_dates.date']])
+  dates_to_download <- dates[dates >= start_date]
+  if (length(dates_to_download) %% 2 != 0)
+  {
+    dates_to_download <- dates_to_download[-1]
+  }
 
   return(dates_to_download)
   }

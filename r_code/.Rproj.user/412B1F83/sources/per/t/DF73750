@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1522714547695.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2755292423",
+    "id" : "DF73750",
+    "lastKnownWriteTime" : 1522201622,
+    "last_content_update" : 1522201622,
+    "path" : "C:/Users/sakro/Desktop/derek/fred-master/r_code/R/create_fred_list.R",
+    "project_path" : "R/create_fred_list.R",
+    "properties" : {
+        "cursorPosition" : "11,24",
+        "docOutlineVisible" : "0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
